@@ -82,6 +82,7 @@
 #endif
 
 #define XSWAP(a,b) { a ^= b; b ^= a; a ^= b; }
+#define __func__ __FUNCTION__
 
 // Compression Stuff
 
